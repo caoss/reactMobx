@@ -1,4 +1,17 @@
 create-reate-app:官方脚手架创建的项目。整合了antmotion,mobx
+
+项目不支持mobx的注解，需要添加es7修改器
+
+npm install babel-preset-stage-2 --save-dev
+npm install babel-preset-react-native-stage-0 --save-dev
+
+添加.babelrc文件
+{
+  "presets": ["react-native-stage-0/decorator-support"]
+}
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

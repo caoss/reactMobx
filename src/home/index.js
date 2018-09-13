@@ -20,11 +20,10 @@ import {observer} from 'mobx-react';
 //     }
 // }
 
-var appState = observable({
-    tasks: ['0','1','2']
-});
+// var appState = observable({
+//     tasks: ['0','1','2']
+// });
 
-// @observer
 class Home extends React.Component {//es6
     state = {
         show: true
@@ -42,7 +41,7 @@ class Home extends React.Component {//es6
                     <div type="primary" onClick={this.onClick}>切换</div>
                 </p>
                 <Texty>{this.state.show && 'Ant Motion'}</Texty>
-                {
+                {/* {
                     appState.tasks&&appState.tasks.length>0?
                     appState.tasks.map(function(item){
                         return(
@@ -51,7 +50,7 @@ class Home extends React.Component {//es6
                     })
                     :
                     ''
-                }
+                } */}
 
             </div>
         );
