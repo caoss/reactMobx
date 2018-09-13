@@ -1,4 +1,4 @@
-create-reate-app:官方脚手架创建的项目。
+create-reate-app:官方脚手架创建的项目。整合了antmotion,mobx
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
